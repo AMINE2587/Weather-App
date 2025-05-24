@@ -45,6 +45,7 @@ fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=54910e8ed
         storm.style.display = "none";
         snow.style.display = "none";
         rain.style.display = "none";
+        cant.style.display = "none";
         description.innerHTML = des;
         temp.innerHTML = tmp;
         humidity.innerHTML = hmd;
@@ -57,6 +58,7 @@ fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=54910e8ed
         storm.style.display = "none";
         snow.style.display = "none";
         rain.style.display = "none";
+        cant.style.display = "none";
         description.innerHTML = des;
         temp.innerHTML = tmp;
         humidity.innerHTML = hmd;
@@ -68,6 +70,7 @@ fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=54910e8ed
         cloud.style.display = "none";
         storm.style.display = "none";
         snow.style.display = "none";
+        cant.style.display = "none";
         rain.style.display = "block";
         description.innerHTML = des;
         temp.innerHTML = tmp;
@@ -81,6 +84,7 @@ fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=54910e8ed
         storm.style.display = "none";
         snow.style.display = "block";
         rain.style.display = "none";
+        cant.style.display = "none";
         description.innerHTML = des;
         temp.innerHTML = tmp;
         humidity.innerHTML = hmd;
@@ -93,6 +97,7 @@ fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=54910e8ed
         storm.style.display = "block";
         snow.style.display = "none";
         rain.style.display = "none";
+        cant.style.display = "none";
         description.innerHTML = des;
         temp.innerHTML = tmp;
         humidity.innerHTML = hmd;
