@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+   <div class="container">
+       <div class="shearch">
+           <input type="search" placeholder="Search" id="shearch">
+           <button id="btn"><img width="30px" src="icons/magnifying-glass.png" alt=""></button>
+       </div>
+       <div style="display: none;" id="whether-display" class="contain">
+       <div  class="important-info">
+            <div class="whether-img">
+                <img id="sun" width="85px" src="whether/sun.png" alt="">
+                <img id="cloud" style="display: none;" width="85px" src="whether/clouds.png" alt="">
+                <img id="moon" style="display: none;" width="85px" src="whether/moon.png" alt="">
+                <img id="storm" style="display: none;" width="85px" src="whether/storm.png" alt="">
+                <img id="snow" style="display: none;" width="85px" src="whether/snowflake.png" alt="">
+                <img id="rain" style="display: none;" width="85px" src="whether/rain.png" alt="">
+            </div>
+            <div class="temp">
+                <span id="temp">30</span>
+            </div>
+            <div class="sky-type">
+                <span id="des">Clear Sky</span>
+            </div>
+       </div>
+       <div  class="wind-humidity">
+        <div class="humidity-contain">
+              <img width="50px" src="icons/humidity.png" alt="">
+              <div class="humidity-info">
+                 <span id="humidity">4 </span>
+                 <h3>Wind Speed</h3>
+              </div>
+        </div>
+        <div class="wind-contain">
+                <img width="50px" src="icons/wind (1).png" alt="">
+                <div class="wind-info">
+                     <span id="wind">30</span>
+                     <h3>Humidity</h3>
+                </div>
+           </div>   
+       </div>
+       </div>
+       <div id="cant" style="display: none;" class="we-cant">
+        <h2 >We C'ant Find this City</h2>
+       </div>
+
+   </div>
+
+
+
+
+
+
+   <script src="script.js"></script>
+</body>
+</html>
